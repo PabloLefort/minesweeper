@@ -10,3 +10,7 @@ class GameBoardError(Error):
 
 class GameBoardFlagLimitReached(GameBoardError):
     pass
+
+
+class GameBoardDotOnMineError(GameBoardError):
+    pass
